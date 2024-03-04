@@ -1,0 +1,46 @@
+.div__Card {
+    border: solid 2px var(--color-300);
+    border-radius: 0.5rem;
+
+    & div {
+        width: 270px;
+        height: 346px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        & h3 {
+            padding-left: 1rem;
+        }
+
+        & span {
+            padding-left: 1rem;
+        }
+
+        & button {
+            margin-left: 1rem;
+        }
+
+    }
+
+    &:hover {
+        border: solid 2px var(--color-primary);
+
+        button {
+            background-color: var(--color-primary);
+        }
+    }
+
+
+    figcaption {
+        background-color: var(--gray-100);
+    }
+
+    img {
+        display: flex;
+        margin-left: 2.5rem;
+        width: 177px;
+        height: 177px;
+        background-color: var(--gray-100);
+    }
+}

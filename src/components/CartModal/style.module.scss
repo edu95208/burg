@@ -1,0 +1,120 @@
+.everlayBox {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    
+    
+    .modalBox {
+        position: relative;
+        
+        background-color: white;
+        border-radius: 0.8rem;
+        
+        width: 100%;
+        margin: 0 1rem;
+        
+        max-width: 450px;
+        max-height: 533px;
+        height: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 0.2rem;
+        
+        
+        .price {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-top: 10px;
+            border-top: solid 1px var(--color-300);
+            width: 100%;
+            max-width: 400px;
+        }
+        .div__fist {
+            background-color: var(--color-primary);
+            width: 100%;
+            max-width: 450px;
+            max-height: 57px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 14px;
+            border-top-left-radius: 0.8rem;
+            border-top-right-radius: 0.8rem;
+        }
+        .divCard{
+            width: 100%;
+            height: 100%;
+            max-height: 360px;
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        
+        }
+
+        & div>ul {
+            
+            max-width: 380px;
+            width: 100%;
+
+            height: 100%;
+            
+
+        }
+
+        .div_P{
+            color: var(--color-300);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+    }
+
+    .closebutton {
+        position: absolute;
+        top: 17px;
+        right: 20px;
+    }
+
+    .div{
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width:430px) {
+
+    .everlayBox {
+
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+ 
+    .div{
+        width: 100%;
+        max-width: 200px;
+        padding: 0px 10px 0px 10px;
+    }
+    .price{
+        padding: 0px 10px 0px 10px;
+    }
+
+}

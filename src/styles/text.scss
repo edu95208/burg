@@ -1,0 +1,77 @@
+.titleCard {
+
+    font-family: var(--font-primary);
+
+    & h3 {
+
+        font-size: var(--Title-Heading3);
+        font-weight: var(--Title-Weight1);
+        color: var(--color-600);
+        line-height: 24px;
+        font-style: normal;
+
+    }
+
+    & span {
+
+        font-size: var(--Title-Headline);
+        font-style: normal;
+        font-weight: var(--Title-Weight3);
+        line-height: normal;
+        color: var(--color-300);
+    }
+
+    .price_text {
+        color: var(--color-primary);
+
+        font-size: var(--Title-body);
+        font-weight: var(--Title-Weight3);
+
+    }
+}
+
+.title_Modal {
+    font-family: var(--font-primary);
+    font-style: normal;
+
+    &>div>h2 {
+        color: white;
+        font-weight: var(--Title-Heading1);
+        line-height: 28px;
+        font-size: var(--Title-Heading3);
+    }
+
+ 
+
+    .price {
+
+        color: var(--color-300);
+        font-size: var(--Title-body);
+        font-weight: var(--Title--Weight3);
+
+
+    }
+
+    .cartModal {
+        &>div {
+
+            h3 {
+                color: var(--color-600);
+                font-size: var(--Title-Heading3);
+                font-weight: var(--Title-Weight1);
+            }
+
+            span {
+                color: var(--color-primary);
+                font-size: var(--Title-body);
+                font-weight: var(--Title-Weight2);
+            }
+        }
+    }
+
+    .title_total {
+        color: var(--grey-600);
+        font-size: var(--Title-body);
+        font-weight: var(--Title-Weight2);
+    }
+}
