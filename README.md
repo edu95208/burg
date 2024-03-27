@@ -24,7 +24,7 @@ Bem-vindo ao BurgerLand! Este é um projeto de site de hamburgueria onde os usu�
 3. Navegue pelos diferentes produtos disponíveis e adicione-os ao carrinho clicando no botão "Adicionar ao Carrinho".
 4. Visualize os itens adicionados ao carrinho clicando no ícone do carrinho.
 5. Remova itens do carrinho clicando no botão "Remover" ao lado de cada item.
-6. Prossiga para a finalização da compra quando estiver pronto.
+6. Abra seu navegador e acesse ' https://m3-s3-hamburgueria-ed95208u-48jlef4rd-edu95208.vercel.app/ ' para utilizar o site.
 
 ## Contribuição
 
